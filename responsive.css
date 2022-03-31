@@ -1,0 +1,907 @@
+@media screen and (max-width: 1200px){ 
+
+
+
+    
+* {
+   
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+body {
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.barra {
+
+    background: orangered;
+    opacity: 0.9;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+
+    z-index: 100;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.secciones {
+
+    margin: 10px;
+
+}
+
+.secciones a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+.secciones a:hover {
+    color: #001524;
+}
+
+.tc {
+    position: absolute;
+    color: white;
+    margin: 0px;
+    left: 40px;
+    font-weight: 2000;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+
+
+.inicio {
+
+    background-image: url(images/image1P.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+
+
+.holaSoyTomas {
+
+    height: 150px;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.holaSoyTomas a {
+    text-decoration: none;
+}
+
+.hola {
+
+    color: #ffecd1;
+
+    font-size: 50px;
+    height: 50px;
+    margin: 5px;
+    transition: 0.25s;
+
+
+}
+
+
+.soyTomas {
+    color: #ffecd1;
+    font-size: 70px;
+    width: 100%;
+    transition: 0.5s;
+} 
+
+
+.frontendDev {
+    color: #ffecd1;
+    font-size: 45px;
+    margin: 10px;
+    transition: 0.75s;
+    letter-spacing: 2px;
+}
+
+
+.flecha {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    width: 30px;
+    height: 30px;
+
+    background: orangered;
+    border-radius: 50%;
+    transition: 0.2s;
+
+    display: flex;
+    text-align: center;
+    justify-content: center; /* repasar */
+
+    transition: 0.75s;
+
+    
+}
+
+.flecha a i {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    color: white;
+}
+
+.holaSoyTomas:hover > .flecha {
+    width: 40px;
+    height: 40px;
+}
+
+.acerca {
+
+    background: #ffecd1;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+}
+
+.acercaDeMi {
+    
+
+    background-color: yellow;
+
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.acercaDeMi h2 {
+    color: #88290f;
+}
+
+.acerca-cont {
+
+    background: hotpink;
+
+    display: block;
+    position: relative;
+    top: 100px;
+    width: 90%;
+    height: 80%;
+
+}
+
+.quienSoy {
+
+    background: yellow;
+    
+    height: 50%;
+    width: 100%;
+
+
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+
+    margin: 0 auto;
+
+}
+
+.quienSoy h2 {
+    color: #88290f;
+    position: relative;
+    top: 40px;
+}
+
+.quienSoy p {
+    position: relative;
+    top: 30px;
+
+    height: 50%;
+    font-size: 30px;
+    padding: 40px;
+    
+
+}
+
+.descargar i {
+    background: orangered;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.descargar i:hover {
+    cursor: pointer;
+}
+
+.habilidades {
+
+    background: red;
+
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+
+} 
+
+.habilidades h2 {
+    color: #88290f;
+    position: relative;
+    top: 40px;
+}
+
+
+.hab {
+    position: relative;
+
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 70px;
+
+}
+
+.hab-cont {
+
+    height: calc(120px * 2);
+    width: calc(120px * 2);
+    position: relative;
+    margin-bottom: 1px;
+    padding: 5px;
+}
+
+.hab-cont img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.hab-cont i {
+
+    font-size: 100px;
+    position: relative;
+    color: rgba(50, 50, 50, 1);
+    top: 30px;
+
+}
+
+.hab-cont p {
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+}
+
+
+.servicios {
+
+    background: yellowgreen;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 200%;
+    text-align: center;
+}
+
+
+.servicios h2 {
+    color: #88290f;
+}
+
+.servTitulo {
+
+    background: yellow;
+
+    height: 5%;
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+    padding: 10px;
+    z-index: 151;
+}
+
+.servicios .servTitulo {
+    font-size: 50px;
+}
+
+
+.serviciosOffer {
+
+    background: orange;
+
+    height: 80%;
+    width: 90%;
+    margin: 5%;
+    padding: 0px;
+    position: relative;
+    top: 70px;
+    display: block;
+}
+
+.cont__serv-1, .cont__serv-2 {
+    width: 90%;
+    height: 50%;
+    display: block;
+
+
+}
+
+.cont__serv-1 {
+
+    background: pink;
+
+    position: relative;
+    top: 70px;
+
+    margin: 0 auto;
+}
+
+.cont__serv-2 {
+
+    background: yellow;
+
+    position: relative;
+    top: 10%;
+
+    margin: 0 auto;
+
+
+}
+
+.serv-obt {                   /* tener cuidado con los elemetos que coloco en contenedores */
+    height: 5%;
+    width: 90%;
+    position: absolute;
+    top: 14.6%;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 10px;
+    z-index: 150;
+}
+
+.serviciosOffer div {
+
+
+
+    height: 45%;
+    min-width: 400px;
+    font-size: 30px;
+
+}
+
+.serviciosOffer div h6 {
+    color: #88290f;
+    font-size: 17px;
+    position: relative;
+    top: 7px;
+}
+
+.serviciosOffer div p {
+    font-size: 13px;
+    position: relative;
+    top: 7px;
+}
+
+.serv1 i {
+    color: rgb(50, 50, 50);
+    font-size: 50px;
+}
+
+.serv2 i {
+    color: darkorange;
+    font-size: 50px;
+}
+
+.serv3 i {
+    color: rgb(0, 150, 0);
+    font-size: 50px;
+}
+
+.serv4 i {
+    color: rgb(59, 89, 152);
+    font-size: 50px;
+}
+
+.serv5 i {
+    color: orangered;
+    font-size: 50px;
+}
+
+.serv6 i {
+    color: rgb(20, 20, 20);
+    font-size: 50px;
+}
+
+.contPortafolio {
+
+    background: #ffecd1;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 300%;
+}
+
+.contPortafolio h2 {
+
+    background: yellow;
+    height: 5%;
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+
+/* proyectos */
+
+
+
+.contenedor1 {
+
+    width: 90%;
+    height: 40%;
+
+    position: relative;
+    top: 170px;
+
+    display: block;
+
+    background: red;
+
+    
+}
+
+.contenedor1 figure {
+
+    margin: 10px auto;
+
+    position: relative;
+    height: 33%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 7px;  /*apicar en mi pagina*/
+    cursor: pointer;  /*apicar en mi pagina*/
+}
+
+.contenedor1 figure img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: none;
+
+    transform: all 500ms ease-out;
+}
+
+.contenedor1 figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    background: orangered;
+
+}
+
+.contenedor1 h3 {
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.contenedor1 p {
+    color: #fff;
+    font-size: 13px;
+
+    text-align: center;
+
+    
+    transition: 0.5s;
+}
+
+.contenedor1 figure:hover > .capa {
+    opacity: 1;
+    
+}
+
+.contenedor1 figure:hover > .capa h3 {
+    margin: 40px auto;
+}
+
+
+
+
+.contenedor2 {
+
+    width: 90%;
+    height: 40%;
+
+    position: relative;
+    top: 0px;
+    display: block;
+    top: -10px;
+    background: green;
+    
+}
+
+.contenedor2 figure {
+    margin: 10px auto;
+    position: relative;
+    height: 33%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 7px;  /*apicar en mi pagina*/
+    cursor: pointer;  /*apicar en mi pagina*/
+}
+
+.contenedor2 figure img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: none;
+
+    transform: all 500ms ease-out;
+}
+
+.contenedor2 figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    background: orangered;
+}
+
+
+.contenedor2 figure:hover > .capa {
+    opacity: 1;
+    
+}
+
+.contenedor2 h3 {
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.contenedor2 p {
+    color: #fff;
+    font-size: 13px;
+
+    text-align: center;
+
+    
+    transition: 0.5s;
+}
+
+
+.contenedor2 figure:hover > .capa {
+    opacity: 1;
+    
+}
+
+.contenedor2 figure:hover > .capa h3 {
+    margin: 40px auto;
+
+}
+
+
+
+
+.contContacto {
+
+    background: #ffecd1;
+
+    height: 70%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 400%;
+}
+
+.contContacto h2 {
+
+    color: #88290f;
+
+    font-size: 50px;
+
+    position: absolute;
+    top: 20%;
+    height: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+
+.contact {
+
+    position: absolute;
+    left: 0;
+
+    height: 50px;
+    width: 90%;
+    margin: 5%;
+    font-size: 15px;
+    padding: 0px;
+    display: inline-flex;
+
+    background: yellow;
+
+    top: 70%;
+}
+
+.contact .cont-social {
+    position: absolute;
+    left: 0;
+
+    height: 50px;
+    width: 90%;
+    margin: 5%;
+
+    padding: 0px;
+    display: inline-flex;
+
+    background: pink;
+
+}
+
+.cont-social a {
+
+
+    height:  100px;
+    width: 100%;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    transition: 0.4s;
+
+    
+    background-color: inherit;
+
+
+}
+
+
+.contact a i:hover {
+
+    filter: brightness(.7);
+    
+}
+
+.mail i {
+    color: #f85059;
+}
+
+.wpp i {
+    color: #25d366;
+}
+
+.in i {
+    color: rgb(14, 118, 168);
+}
+
+li {
+    color: #88290f;
+}
+
+
+
+/* Formulario */
+
+.contact-1 {
+    
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    left: 0;
+
+}
+
+.flex-container {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    margin: 12px;
+
+}
+
+.form {
+
+    flex: 2;
+    text-align: center;
+    order: 2;
+
+}
+
+.form__input {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.form__input input {
+
+    width: 100%;
+    height: 60px;
+    padding: 7px;
+    margin: 9px 0;
+    border: none;
+    border-radius: 5px;
+    background: #E5BD7D;
+    color: white;
+    font-size: 20px;
+
+}
+
+.form__input1 input {
+    width: 100%;
+    height: 60px;
+    padding: 7px;
+    margin: 9px 0;
+    border: none;
+    border-radius: 5px;
+    background: #E5BD7D;
+    color: white;
+    font-size: 20px;
+}
+
+.form__input1 input:focus {
+    background: #D0AA7D;
+    outline: none;
+    font-size: 23px;
+
+}
+
+.form__input input:focus {
+    background: #D0AA7D;
+    outline: none;
+    font-size: 23px;
+
+}
+
+.form__input textarea {
+    width: 100%;
+    padding: 7px;
+    margin: 9px 0;
+    border: none;
+    border-radius: 5px;
+    background: #E5BD7D;
+    color: white;
+    resize: none;
+    min-height: 120px;
+    font-size: 20px;
+
+}
+
+.form__input textarea:focus {
+    background: #D0AA7D;
+    outline: none;
+    font-size: 23px;
+}
+
+.form__submit {
+    width: 100%;
+    padding: 7px;
+    margin: 9px 0;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    height: 60px;
+    background: #E5BD7D;
+    transition: 0.12s;
+    font-size: 20px;
+    color: black;
+}
+
+.form__submit {
+    height: 60px;
+    background: #E5BD7D;
+    transition: 0.12s;
+    font-size: 20px;
+    color: black;
+}
+
+/* Pie de pagina */
+
+.foot {
+    background: orangered;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 460%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 350;
+
+}
+
+.copyR {
+    position: absolute;
+    height: 50px;
+    width: 300px;
+}
+
+.copyR p {
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+}
