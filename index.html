@@ -11,6 +11,7 @@
       <meta charset="utf-8">
       <script src="https://kit.fontawesome.com/b546633b3b.js" crossorigin="anonymous"></script>
 
+
    </head>
 
     <body>
@@ -127,8 +128,7 @@
             </div>
 
             <div class="serviciosOffer">
-
-                    <div class="cont__serv-1 cont_serv-global">
+                    
 
                         <div class="serv1 serv">
                            <i class="fa-solid fa-mobile-screen-button"></i>
@@ -148,10 +148,6 @@
                            <p>Parrafo descriptivo del servicio que ofrezco</p>
                         </div>
 
-                    </div>
-
-                    <div class="cont__serv-2 cont_serv-global">
-
                         <div class="serv4 serv">
                            <i class="fa-solid fa-thumbs-up"></i>
                            <h6>TITULO</h6>
@@ -170,29 +166,61 @@
                            <p>Parrafo descriptivo del servicio que ofrezco</p>
                         </div>
 
-                    </div>
-
             </div>
         </div>
 
         <div id="4" class="contPortafolio">
-                <h2>Portafolio</h2>
 
+                   <h2 class="servTitulo">Portafolio</h2>
+                
 
+                    <div class="contenedorProyect">
+                        
+                        <figure>
 
-                <div class="contenedor1">
+                        <img src="images/proyecto1.png">
+
+                        <a href="proyects/proyect-1/PROYECTO_1.html" target="_blank">
+                            <div class="capa">
+
+                                <h3>Pagina tributo</h3>
+    
+                                <p>Proyecto 1 FreeCodeCamp</p>
+    
+                            </div>
+                        </a>
+
+                    </figure>
 
                     <figure>
 
-                        <img src="images/proyecto.png">
+                        <img src="images/proyecto2.png">
 
-                        <div class="capa">
+                        <a href="proyects/proyect-2/PROYECTO_2.html" target="_blank">
+                            <div class="capa">
 
-                            <h3>Proyecto TAL</h3>
+                                <h3>Formulario</h3>
+    
+                                <p>Proyecto 2 FreeCodeCamp</p>
+    
+                            </div>
+                        </a>
 
-                            <p>Descripcion</p>
+                    </figure>
 
-                        </div>
+                    <figure>
+
+                        <img src="images/proyecto3.png">
+
+                        <a href="proyects/proyect-3/PROYECTO_3.html" target="_blank">
+                            <div class="capa">
+
+                                <h3>Aterrizaje de producto</h3>
+    
+                                <p>Proyecto 3 FreeCodeCamp</p>
+    
+                            </div>
+                        </a>
 
                     </figure>
 
@@ -200,50 +228,15 @@
 
                         <img src="images/proyecto.png">
 
-                        <div class="capa">
+                        <a href="#" target="_blank">
+                            <div class="capa">
 
-                            <h3>Proyecto TAL</h3>
-
-                            <p>Descripcion</p>
-
-                        </div>
-
-                    </figure>
-
-                    <figure>
-
-                        <img src="images/proyecto.png">
-
-                        <div class="capa">
-
-                            <h3>Proyecto TAL</h3>
-
-                            <p>Descripcion</p>
-
-                        </div>
-
-                    </figure>
-
-
-                </div>
-
-
-
-
-
-                <div class="contenedor2">
-
-                    <figure>
-
-                        <img src="images/proyecto.png">
-
-                        <div class="capa">
-
-                            <h3>Proyecto TAL</h3>
-
-                            <p>Descripcion</p>
-
-                        </div>
+                                <h3>Proyecto TAL</h3>
+    
+                                <p>Descripcion</p>
+    
+                            </div>
+                        </a>
 
                     </figure>
 
@@ -251,13 +244,15 @@
 
                         <img src="images/proyecto.png">
 
-                        <div class="capa">
+                        <a href="#" target="_blank">
+                            <div class="capa">
 
-                            <h3>Proyecto TAL</h3>
-
-                            <p>Descripcion</p>
-
-                        </div>
+                                <h3>Proyecto TAL</h3>
+    
+                                <p>Descripcion</p>
+    
+                            </div>
+                        </a>
 
                     </figure>
 
@@ -265,18 +260,20 @@
 
                         <img src="images/proyecto.png">
 
-                        <div class="capa">
+                        <a href="#" target="_blank">
+                            <div class="capa">
 
-                            <h3>Proyecto TAL</h3>
-
-                            <p>Descripcion</p>
-
-                        </div>
+                                <h3>Proyecto TAL</h3>
+    
+                                <p>Descripcion</p>
+    
+                            </div>
+                        </a>
 
                     </figure>
 
 
-                </div>
+                    </div>
 
 
             
@@ -309,16 +306,16 @@
                <form class="form" action="https://formspree.io/f/xzboalvo" method="POST">
 
                  <div class="form__input">
-                      <input class="form__section" type="text" placeholder="NOMBRE" name="name">
+                      <input class="form__section" type="text" placeholder="NOMBRE" name="name" required>
                  </div>
                  <div class="form__input">
-                      <input class="form__section" type="email" placeholder="CORREO" name="email">
+                      <input class="form__section" type="email" placeholder="CORREO" name="email" required>
                  </div>
                  <div class="form__input1">
                       <input class="form__section" type="text" placeholder="ASUNTO" name="message">
                  </div>
                  <div class="form__input">
-                      <textarea class="form__area" placeholder="ESCRIBA SU MENSAJE" name="message"></textarea>
+                      <textarea class="form__area" placeholder="ESCRIBA SU MENSAJE" required></textarea>
                  </div>
                  <div class="form__section">
                       <input type="submit" class="form__submit">
@@ -326,14 +323,16 @@
 
                </form>
 
-
         </div>
+
 
                 </div>
                 
             </div>
 
         </div>
+
+        <script src="form.js"></script>
 
         <div>
             <footer class="foot">
@@ -349,6 +348,7 @@
         
        
         </div>
+
         
     </body>
 </html>
