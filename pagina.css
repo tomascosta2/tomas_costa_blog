@@ -57,7 +57,13 @@ html {
     left: 40px;
     font-weight: 800;
     letter-spacing: 2px;
+    
+}
+
+.tc:hover {
+    
     cursor: pointer;
+
 }
 
 .inicio {
