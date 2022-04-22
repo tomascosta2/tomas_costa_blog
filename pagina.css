@@ -1,13 +1,6 @@
 * {
-   
     color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-
-    
-}
-
-body {
-
 }
 
 html {
@@ -353,7 +346,6 @@ html {
 
 
 .serviciosOffer {
-
     height: 55%;
     width: 90%;
     margin: 5%;
@@ -363,26 +355,6 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.cont__serv-1, .cont__serv-2 {
-    width: 90%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.cont__serv-1 {
-
-    position: relative;
-    top: 50px;
-}
-
-.cont__serv-2 {
-
-    position: relative;
-    top: 10px;
 }
 
 .serv-obt {                   /* tener cuidado con los elemetos que coloco en contenedores */
@@ -463,9 +435,10 @@ html {
     font-size: 30px;
 
     position: absolute;
-    top: 20%;
+    top: 18%;
     height: 5%;
     width: 90%;
+    z-index: 303;
     text-align: center;
 }
 
@@ -475,13 +448,13 @@ html {
 
 
 
-.contenedor1 {
+.contenedorProyect {
 
     width: 90%;
-    height: 30vh;
+    height: 70%;
 
     position: relative;
-    top: 140px;
+    top: 50px;
 
     display: flex;
     flex-wrap: wrap;
@@ -492,24 +465,24 @@ html {
     
 }
 
-.contenedor1 figure {
-    margin: 5px;
+.contenedorProyect figure {
+    margin:50px;
     position: relative;
-    height: 150px;
-    width: 280px;
+    max-height: 30%;
+    max-width: 20%;
     overflow: hidden;
-    border-radius: 7px;  /*apicar en mi pagina*/
-    cursor: pointer;  /*apicar en mi pagina*/
+    border-radius: 7px;  
+    cursor: pointer;  
 }
 
-.contenedor1 figure img {
+.contenedorProyect figure img {
     width: 100%;
     height: 100%;
 
     transform: all 500ms ease-out;
 }
 
-.contenedor1 figure .capa {
+.contenedorProyect figure a .capa {
     position: absolute;
     top: 0;
     width: 100%;
@@ -521,113 +494,27 @@ html {
 
 }
 
-.contenedor1 h3 {
+.contenedorProyect a .capa h3 {
     color: #fff;
     text-align: center;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
-.contenedor1 p {
+.contenedorProyect a .capa p {
     color: #fff;
-    font-size: 13px;
-
-    text-align: center;
-
-    
+    font-size: .6em;
+    text-align: center;    
     transition: 0.5s;
 }
 
-.contenedor1 figure:hover > .capa {
+.contenedorProyect figure:hover > a .capa {
     opacity: 1;
-    
 }
 
-.contenedor1 figure:hover > .capa h3 {
+.contenedorProyect figure:hover > a .capa h3 {
     margin: 40px auto;
 }
-
-
-
-
-.contenedor2 {
-
-    width: 90%;
-    height: 30vh;
-
-    position: relative;
-    top: -50px;
-
-    display: flex;
-    flex-wrap: wrap;
-
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-
-.contenedor2 figure {
-    margin: 5px;
-    position: relative;
-    height: 150px;
-    width: 280px;
-    overflow: hidden;
-    border-radius: 7px;  /*apicar en mi pagina*/
-    cursor: pointer;  /*apicar en mi pagina*/
-}
-
-.contenedor2 figure img {
-    width: 100%;
-    height: 100%;
-
-    transform: all 500ms ease-out;
-}
-
-.contenedor2 figure .capa {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-
-    opacity: 0;
-
-    background: orangered;
-}
-
-
-.contenedor2 figure:hover > .capa {
-    opacity: 1;
-    
-}
-
-.contenedor2 h3 {
-    color: #fff;
-    text-align: center;
-    transition: 0.5s;
-    font-size: 20px;
-}
-
-.contenedor2 p {
-    color: #fff;
-    font-size: 13px;
-
-    text-align: center;
-
-    
-    transition: 0.5s;
-}
-
-
-.contenedor2 figure:hover > .capa {
-    opacity: 1;
-    
-}
-
-.contenedor2 figure:hover > .capa h3 {
-    margin: 40px auto;
-
-}
-
 
 
 
