@@ -52,12 +52,12 @@ html {
 
 .tc {
     position: absolute;
-    color: white;
+    color: #fff;
     margin: 0px;
     left: 40px;
     font-weight: 800;
     letter-spacing: 2px;
-    
+    text-decoration:none;
 }
 
 .tc:hover {
