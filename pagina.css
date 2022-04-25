@@ -66,6 +66,10 @@ html {
 
 }
 
+.tc span {
+    color: #fff;
+}
+
 .inicio {
 
     background-image: url(images/image1P.jpg);
