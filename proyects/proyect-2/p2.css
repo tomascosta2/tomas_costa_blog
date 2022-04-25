@@ -1,0 +1,69 @@
+* {
+  font-family: arial;
+}
+
+body {
+}
+
+#all {
+  width: 60%;
+  background-color: rgb(108, 124, 230);
+  padding: 20px;
+  margin: 60px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  height: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+#survey-form {
+  display: block;
+}
+
+input {
+  display: block;
+  position: relative;
+  width: 98%;
+}
+
+input:focus {
+  outline: none;
+}
+
+#check-box {
+  display: inline-block;
+  width: 20px;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#dropdown {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+
+textarea {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin: 10px auto;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+

@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  font-family: 	monospace;
+  font-size: 50px;
+}
+
+#img-div {
+  display: block;
+  width: 100%;
+}
+
+img {
+  max-width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  margin-right: 50px;
+  font-family: sans-serif;
+
+}
+
+#description-cont {
+  margin: 50px;
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+#description-cont p {
+  text-align: justify;
+}
+
+#image-born {
+  max-width: 50%;
+}
